@@ -19,6 +19,6 @@ public class Car implements Validable{
 
     @Override
     public boolean validate() {
-        return true;
+        return cool != null;
     }
 }
