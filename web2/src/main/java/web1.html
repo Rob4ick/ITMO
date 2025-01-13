@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба 1</title>
+    <link rel="stylesheet" href="styles/Style.css">
+</head>
+<body>
+<div class="header">
+    <p>ФИО: Тукаев Роберт Рафаэлевич</p>
+    <p>Номер группы: P3207</p>
+    <p>Номер варианта: 409720</p>
+</div>
+<div class="main-module">
+    <div class="chart">
+        <h2>График</h2>
+        <img src="Chart.jpg"  width="260" height="260">
+    </div>
+    <div class="controls">
+        <h2>Выбор координаты X</h2>
+        <div class="checkbox-group">
+            <label><input type="checkbox" class="checkbox" value="-5"> -5</label>
+            <label><input type="checkbox" class="checkbox" value="-4"> -4</label>
+            <label><input type="checkbox" class="checkbox" value="-3"> -3</label>
+            <label><input type="checkbox" class="checkbox" value="-2"> -2</label>
+            <label><input type="checkbox" class="checkbox" value="-1"> -1</label>
+            <label><input type="checkbox" class="checkbox" value="0"> 0</label>
+            <label><input type="checkbox" class="checkbox" value="1"> 1</label>
+            <label><input type="checkbox" class="checkbox" value="2"> 2</label>
+            <label><input type="checkbox" class="checkbox" value="3"> 3</label>
+        </div>
+        <p id="errorX"></p>
+        <div>
+            <h2>Координата Y:</h2>
+            <label><input type="text" id="y-coordinate" placeholder="Введите Y" /><br></label>
+            <p id="errorY"></p>
+        </div>
+        <div>
+            <h2>Радиус R:</h2>
+            <label><input type="text" id="rValue" placeholder="Введите R" /></label>
+            <p id="errorR"></p>
+        </div>
+        <div class="buttons">
+            <button id="submit-button">Подтвердить</button>
+            <button id="clearTableButton">Очистить таблицу</button>
+        </div>
+    </div>
+    <div class="results-section">
+        <h2>Результаты попыток</h2>
+        <div class="table-header">
+            <table>
+                <thead>
+                <tr>
+                    <th>Номер попытки</th>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>R</th>
+                    <th>Попадание</th>
+                    <th>Текущее время</th>
+                    <th>Время работы скрипта</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="table-container">
+            <table>
+                <tbody id="results-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="./123.js"></script>
+</body>
+</html>

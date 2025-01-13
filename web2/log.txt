@@ -1,0 +1,24 @@
+дек. 03, 2024 5:20:51 AM Main <clinit>
+INFO: Logger initialized
+дек. 03, 2024 5:20:51 AM FastCGIHandler handleRequest
+INFO: Request sleep
+дек. 03, 2024 5:20:51 AM FastCGIHandler sendError
+INFO: sendHTTP/1.1 400 Bad Request
+Content-Type: text
+Content-Length: 162
+Access-Control-Allow-Origin: *
+
+В теле запроса должны быть переданы целочисленные значения X, Y и R (-5 <= X <= 3; -3 <= Y <= 5; 2 <= R <= 5).
+
+янв. 14, 2025 2:18:48 AM Main <clinit>
+INFO: Logger initialized
+янв. 14, 2025 2:18:48 AM FastCGIHandler handleRequest
+INFO: Request sleep
+янв. 14, 2025 2:18:48 AM FastCGIHandler sendError
+INFO: sendHTTP/1.1 400 Bad Request
+Content-Type: text
+Content-Length: 162
+Access-Control-Allow-Origin: *
+
+В теле запроса должны быть переданы целочисленные значения X, Y и R (-5 <= X <= 3; -3 <= Y <= 5; 2 <= R <= 5).
+
